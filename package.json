@@ -1,0 +1,36 @@
+{
+  "name": "umi-plugin-kea",
+  "version": "0.0.1",
+  "description": "umi plugin with [kea](https://github.com/keajs/kea)",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "father-build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaohuoni/umi-plugin-kea.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaohuoni/umi-plugin-kea/issues"
+  },
+  "peerDependencies": {
+    "umi": "3.x"
+  },
+  "homepage": "https://github.com/xiaohuoni/umi-plugin-kea#readme",
+  "dependencies": {
+    "kea": "^2.4.2",
+    "kea-loaders": "^0.4.0",
+    "kea-router": "^0.5.3",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "reselect": "^4.0.0"
+  },
+  "devDependencies": {
+    "@umijs/types": "^3.4.25",
+    "@umijs/utils": "^3.4.25",
+    "father-build": "^1.19.6"
+  }
+}
